@@ -5,6 +5,8 @@
 // // number = number % 10;
 // // Console.WriteLine($"Middle digit is {number}");
 // // //____________________________________
+
+// // Task2_________________________________
 // Console.WriteLine("Type an integer number");
 // int typedNumber = Convert.ToInt32(Console.ReadLine());
 
@@ -51,5 +53,16 @@
 // {
 //     Console.WriteLine($"Digit {desiredDigit} is - {array[requiredIndex]}");
 // }
-// //Task2_______________________________
+// //____________________________________
 
+// //Task3_______________________________
+Console.WriteLine ("Type integer from 1 till 7");
+int number = Convert.ToInt32(Console.ReadLine());
+if (number == 6 || number == 7)
+{
+    Console.WriteLine("Yes");
+}
+else
+{
+    Console.WriteLine("No");
+}
